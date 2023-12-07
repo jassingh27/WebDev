@@ -9,7 +9,6 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <HeaderBackup />
       <main>
         <div>
           <img class="w-full h-auto " src={homecover}></img>
