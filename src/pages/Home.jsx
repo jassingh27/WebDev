@@ -8,7 +8,7 @@ import HeaderBackup from '../components/HeaderBackup';
 const Home = () => {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       <HeaderBackup />
       <main>
         <div>
