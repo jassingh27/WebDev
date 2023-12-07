@@ -32,15 +32,15 @@ const dashboardStyles = {
     iconStyle: {
         height: '100px',
         position: 'absolute',
-        top: '-50px', // 向上移动半个图标的高度
-        left: '50%', // 水平居中
-        transform: 'translateX(-50%)', // 确保精确居中
+        top: '-50px',
+        left: '50%',
+        transform: 'translateX(-50%)',
     },
 
     textBoxWrapper: {
-        position: 'relative', // 为外部容器设置相对定位
+        position: 'relative',
         display: 'flex',
-        justifyContent: 'center', // 水平居中
+        justifyContent: 'center',
     },
     textBoxStyle: {
         display: 'flex',
