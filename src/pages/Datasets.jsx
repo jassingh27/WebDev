@@ -19,20 +19,20 @@ const Datasets = () => {
             <tr>
               <td>
                 <div class="container">
-                  <div class="table_top">People</div>
-                  <div class="table_bottom">Property</div>
+                  <div class="table_top hover:bg-green-200">People</div>
+                  <div class="table_bottom hover:bg-green-200">Property</div>
                 </div>
               </td>
               <td><img src="src/assets/recycle.png" alt="Recycle" width="220px" /></td>
               <td> <div class="container">
-                <div class="table_top">Sensors</div>
-                <div class="table_bottom">Transportation</div>
+                <div class="table_top hover:bg-green-200">Sensors</div>
+                <div class="table_bottom hover:bg-green-200">Transportation</div>
               </div></td>
             </tr>
             <tr>
               <td><img src="src/assets/house.png" alt="House" width="220px" /></td>
               <td><div class="container">
-                <div class="table_top">Environments</div>
+                <div class="table_top hover:bg-green-200">Environments</div>
               </div></td>
               <td><img src="src/assets/tram.png" alt="Tram" width="220px" /></td>
             </tr>
