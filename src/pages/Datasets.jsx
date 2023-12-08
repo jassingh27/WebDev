@@ -15,7 +15,7 @@ const Datasets = () => {
 <div class="container">
  <div class="section ">
     
-    <img src="images/people.png" alt="Property"/>
+    <img src="images/people.png" alt="People"/>
     <h3>People</h3>
  </div>
 
@@ -25,7 +25,7 @@ const Datasets = () => {
 
  <div class="section">
     
-    <img src="images/cloud.png" alt="Transportation"/>
+    <img src="images/cloud.png" alt="Sensors"/>
     <h3>Sensors</h3>
  </div>
 
