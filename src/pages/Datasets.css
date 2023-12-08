@@ -3,13 +3,9 @@ body {
   text-align: center; 
 }
 
-h2 {
-  margin:60px;
-  font-size: xx-large;
-}
-
 table {
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 50px;
     border-collapse: collapse; 
     border-style: hidden;
   }
@@ -35,4 +31,11 @@ table td {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.title {
+  margin: 60px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
 
