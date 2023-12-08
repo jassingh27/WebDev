@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import homecover from '../assets/homebanner.jpeg'
+import HeaderBackup from '../components/HeaderBackup';
 
 const Home = () => {
   return (

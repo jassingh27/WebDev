@@ -10,7 +10,7 @@ import Licensing from './pages/Licensing';
 
 function App() {
   return (
-    <>
+    <main>
     <BrowserRouter>
       <Routes>
           <Route path="/" element={<Home />} />
@@ -22,7 +22,7 @@ function App() {
           <Route path="/licensing" element={<Licensing />} />
       </Routes>
     </BrowserRouter>
-    </>
+    </main>
   )
 }
 
