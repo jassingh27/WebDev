@@ -25,7 +25,7 @@ const Datasets = () => {
             <div class="flip-box">
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
-                        <h2>Do I need to request access from the City of Melbourne to use the datasets?</h2>
+                        <p>Do I need to request access from the City of Melbourne to use the datasets?</p>
                     </div>
                     <div class="flip-box-back">
                         <p>Melbourne Open Data is a strong advocate of open access. You do not need to directly request information from us. You may like to look at our educational material which provides a step-by-step guide to using Open Data using the Socrata API.</p>
@@ -38,7 +38,7 @@ const Datasets = () => {
             <div class="flip-box">
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
-                        <h2>How can I access an 'open data use case' discovery portal to better understand how to leverage Melbourne Open Data within my business?</h2>
+                        <p>How can I access an 'open data use case' discovery portal to better understand how to leverage Melbourne Open Data within my business?</p>
                     </div>
                     <div class="flip-box-back">
                         <p>You may like to look at the educational material which provides a step-by-step guide to using Melbourne Open Data to visualize key insights for your business.</p>
@@ -49,7 +49,7 @@ const Datasets = () => {
             <div class="flip-box">
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
-                        <h2>As a business owner, how can I visualize the pedestrian count in Melbourne?</h2>
+                        <p>As a business owner, how can I visualize the pedestrian count in Melbourne?</p>
                     </div>
                     <div class="flip-box-back">
                         <p>Our platform includes a variety of use cases about parking availability, pedestrian traffic data, business opportunities, and business planning. We also provide educational material that provides you with the tools to explore Melbourne Open Data in your own time.</p>
