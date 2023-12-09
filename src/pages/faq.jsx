@@ -8,7 +8,7 @@ const Datasets = () => {
     <div>
       <Header />
       <main>
-        <img src="src/assets/faq.png" alt="Header Image">
+        <img src="src/assets/faq.png" alt="Header Image" />
 
         <div class="flip-box-container">
             <div class="flip-box">
