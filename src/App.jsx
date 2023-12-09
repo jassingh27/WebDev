@@ -6,7 +6,8 @@ import "./App.css";
 import Casestudies from "./pages/Casestudies";
 import Datasets from "./pages/Datasets";
 import Privacypolicy from "./pages/PrivacyPolicy";
-import Licensing from "./pages/Licensing";
+import Licensing from "./pages/Licensing/Licensing";
+
 
 function App() {
   return (
