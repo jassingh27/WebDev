@@ -22,7 +22,7 @@ const About = () => {
       <div className="info-section">
         <div className="info-block">
           <div className="additional-logo-container">
-            <img src="./logo2.png" alt="Additional About Us Logo" />
+            <img src="src/assets/about-logo 2.png" alt="Additional About Us Logo" />
           </div>
           <h2>About us</h2>
           <p>
@@ -50,7 +50,7 @@ const About = () => {
             Open Data APIs can be made.
           </p>
           <div className="main-logo-container">
-            <img src="./logo.png" alt="Melbourne Open Data Project Logo" />
+            <img src="src/assets/about-logo.png" alt="Melbourne Open Data Project Logo" />
           </div>
         </div>
       </div>
