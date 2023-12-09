@@ -14,7 +14,7 @@ const Datasets = () => {
             <div class="flip-box">
                 <div class="flip-box-inner">
                     <div class="flip-box-front">
-                        <h2>What is the Open Data Playground?</h2>
+                        <p>What is the Open Data Playground?</p>
                     </div>
                     <div class="flip-box-back">
                         <p>Melbourne Open Data Playground (MOP) is a capstone project sponsored by Deakin University. It provides use cases and educational material to help you leverage Melbourne Open Data for your business and research needs. For more information, see our 'About' page.</p>
