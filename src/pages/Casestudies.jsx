@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
+// Import Tailwind CSS styles
+import 'tailwindcss/tailwind.css';
+
 const Casestudies = () => {
   const [images, setImages] = useState([]);
   const [selectedStudy, setSelectedStudy] = useState(null);
@@ -33,22 +36,22 @@ const Casestudies = () => {
   };
 
   return (
-    <div>
+    <div className="font-sans bg-gray-100">
       <Header />
       <main>
         <div className="app">
-          <section className="intro">
-            <p><span style={{ fontSize: '40px' }}>Chameleon Melbourne Open Data</span> - <span style={{ fontSize: '20px', fontWeight: 'bold' }}>We unveil the intricate tapestry of data science's transformative impact across diverse sectors. Through compelling case studies exploring biotechnology, oil and gas supply management, and education, we showcase the power of Melbourne's open data. These narratives illuminate innovative solutions, empowering informed decision-making, and driving progress within our city's dynamic landscape.</span></p>
+          <section className="intro max-w-3/4 mx-auto bg-green-800 text-white p-4 rounded-lg">
+            <p><span className="text-4xl">Chameleon Melbourne Open Data</span> - <span className="text-xl font-bold">We unveil the intricate tapestry of data science's transformative impact across diverse sectors. Through compelling case studies exploring biotechnology, oil and gas supply management, and education, we showcase the power of Melbourne's open data. These narratives illuminate innovative solutions, empowering informed decision-making, and driving progress within our city's dynamic landscape.</span></p>
           </section>
 
           <section className="recent-work">
-            <h2>Recent Work</h2>
-            <div className="image-grid">
+            <h2 className="text-2xl">Recent Work</h2>
+            <div className="grid grid-cols-3 gap-4">
               {images.map((study) => (
                 <div key={study.id} className="case-study">
                   <button onClick={() => openModal(study)}>
-                    <img src={study.img} alt={study.title} />
-                    <p style={{ fontSize: 'calc(1rem + 2px)', fontWeight: 'bold' }}>{study.title}</p>
+                    <img src={study.img} alt={study.title} className="w-full h-auto" />
+                    <p className="text-lg font-bold">{study.title}</p>
                   </button>
                 </div>
               ))}
@@ -56,7 +59,7 @@ const Casestudies = () => {
           </section>
 
           {selectedStudy && (
-            <div className="modal">
+            <div className="modal bg-gray-100 p-4 rounded-lg max-w-1/2 mx-auto">
               <div className="modal-content">
                 <span className="close" onClick={closeModal}>
                   &times;
@@ -68,8 +71,8 @@ const Casestudies = () => {
             </div>
           )}
 
-          <section className="outro">
-            <p style={{ fontSize: '25px', fontWeight: 'bold' }}>"Chameleon Melbourne Open Data stands as a testament to the profound possibilities unlocked by leveraging Melbourne's open data resources. From revolutionizing biotech insights to optimizing oil and gas supply chains and redefining educational strategies, these case studies highlight the integral role of data science in shaping a progressive future. Join us in exploring the boundless opportunities and transformative potential embedded within Melbourne's rich repository of open data."</p>
+          <section className="outro max-w-3/4 mx-auto bg-green-800 text-white p-4 rounded-lg">
+            <p className="text-2xl font-bold">"Chameleon Melbourne Open Data stands as a testament to the profound possibilities unlocked by leveraging Melbourne's open data resources. From revolutionizing biotech insights to optimizing oil and gas supply chains and redefining educational strategies, these case studies highlight the integral role of data science in shaping a progressive future. Join us in exploring the boundless opportunities and transformative potential embedded within Melbourne's rich repository of open data."</p>
           </section>
         </div>
       </main>
