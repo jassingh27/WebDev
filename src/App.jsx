@@ -8,6 +8,7 @@ import Datasets from "./pages/Datasets";
 import Privacypolicy from "./pages/PrivacyPolicy";
 import Licensing from "./pages/Licensing/Licensing";
 import SearchResults from "./pages/SearchResult";
+import Contact from "./pages/Contact";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="/licensing" element={<Licensing />} />
           <Route path="/searchresults" element={<SearchResults />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </main>
