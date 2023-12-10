@@ -1,0 +1,126 @@
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+
+    
+  } 
+  footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #000000;
+
+  }
+
+body{
+  height: 100%;
+  margin: 0;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  
+}
+.topnav {
+  overflow: auto;
+  background-color: #336;
+  width: 100%;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f3;
+  text-align: center;
+  padding: 50px;
+  text-decoration: ivory;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04Ab6D;
+  color: rgb(255, 255, 255);
+}
+.bg {
+  background-image: url("mel1.jpg"); 
+  height: 100%; 
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo-img{
+    float: left;
+    position: relative;
+    
+}
+
+.background {
+			background-color:white;
+			background-blend-mode: darken;
+			background-size: cover;
+            padding: 10px;	
+            text-align: center;
+        }  
+            
+.footer-logo
+            {
+            float: left;
+                 position: relative;
+            }
+.text-footer {
+            text-align: center;
+            padding: 0% 
+            
+        }
+.aboutus
+{
+    text-align: center;
+    float:center;
+
+
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+.overlay-text {
+  position: absolute;
+  top: 20%; 
+  left: 10%; 
+
+   
+  color: #000000; 
+  padding: auto; 
+  font-size: 20px; 
+  text-align: center;
+}
+.leftnav
+{
+    text-align: left;
+    position: relative;
+    padding-left: 87%;
+    padding-bottom: fixed;
+
+}
+.leftnavh3
+{
+    
+    text-align: left;
+    position: relative;
+    padding-left: 87%;
+    padding-bottom: fixed;
+
+    
+    
+
+}
