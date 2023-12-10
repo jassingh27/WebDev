@@ -22,7 +22,7 @@ function App() {
           <Route path="/datasets" element={<Datasets />} />
           <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="/licensing" element={<Licensing />} />
-          <Route path="/searchresults" component={SearchResults} />
+          <Route path="/searchresults" element={<SearchResults />} />
         </Routes>
       </BrowserRouter>
     </main>
