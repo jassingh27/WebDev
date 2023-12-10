@@ -24,6 +24,7 @@ function App() {
           <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="/licensing" element={<Licensing />} />
           <Route path="/searchresults" element={<SearchResults />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </main>

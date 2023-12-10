@@ -5,6 +5,9 @@ import '../styles/contact.css';
 
 const Contact = () => {
   return (
+      <body>
+          
+
     <div className="row">
       <div className="column">
         <img className="cityImage responsive" src="cityimg.png" alt="" />
@@ -68,6 +71,7 @@ const Contact = () => {
         </form>
       </div>
     </div>
+    </body>
   );
 };
 
