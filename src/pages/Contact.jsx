@@ -1,16 +1,18 @@
-import React from 'react';
+import React from "react";
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import '../styles/contact.css';
 
 const Contact = () => {
   return (
-      <body className="contactBody">
+      <div>
+                <Header />
+      <main className="contactBody">
           
 
     <div className="row">
       <div className="column">
-        <img className="cityImage responsive" src="src/assets/cityImage.png" alt="" />
+        <img className="cityImage responsive" src="src/assets/cityimg.png" alt="" />
       </div>
       <div className="column">
         <form id="contact" action="" method="post">
@@ -71,7 +73,9 @@ const Contact = () => {
         </form>
       </div>
     </div>
-    </body>
+    </main>
+    <Footer />
+    </div>
   );
 };
 
