@@ -1,0 +1,127 @@
+ header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #33b98e;
+
+  } 
+  footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #000000;
+    padding: 2%;
+
+  }
+
+body{
+  height: 100%;
+  margin: 0;
+  font-family: poppins; font-size: medium; font-style: bold;
+  
+}
+.topnav {
+  overflow: hidden;
+  background-color: #e2f0dc;
+  width: 100%;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 30px;
+  text-decoration: #e2f0dc;
+  font-size: 30px;
+  
+  
+}
+
+.topnav a:hover {
+  background-color: #33b98e;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #33b98e;
+  color: rgb(255, 255, 255);
+}
+
+
+
+.bg-image {
+  
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 12%;
+  
+}
+
+.img1 { background-image: url("2.jpg"); }
+
+.logo-img{
+    float: left;
+    position: center;
+    
+    
+}
+
+
+
+
+.background {
+			background-color:#e2f0dc;
+			background-blend-mode: darken;
+			background-size: cover;
+            padding: 10px;	
+            text-align: center;
+            
+        }  
+            
+.footer-logo
+            {
+            float: left;
+                 position: relative;
+                 padding-right: 0.5%;
+                 
+            }
+.text-footer {
+            text-align: left;
+            padding: 0% 
+            
+            
+        }
+       
+.aboutus
+{
+    text-align: center;
+    float:center;
+
+
+}
+.contactus
+        {
+          text-align: right;
+          float: center;
+          
+        }
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.leftnav
+{
+    text-align: left;
+    position: relative;
+    padding-left: 73%;
+    padding-bottom: 0.01%;
+    color: #000000;
+    
+
+}
