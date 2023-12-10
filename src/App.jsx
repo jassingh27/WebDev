@@ -8,6 +8,7 @@ import Datasets from "./pages/Datasets";
 import Privacypolicy from "./pages/PrivacyPolicy";
 import Licensing from "./pages/Licensing/Licensing";
 import SearchResults from "./pages/SearchResult";
+import Contact from "./pages/Contact";
 
 
 function App() {
