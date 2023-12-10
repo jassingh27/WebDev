@@ -7,6 +7,7 @@ import Casestudies from "./pages/Casestudies";
 import Datasets from "./pages/Datasets";
 import Privacypolicy from "./pages/PrivacyPolicy";
 import Licensing from "./pages/Licensing/Licensing";
+import SearchResults from "./pages/SearchResult";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/datasets" element={<Datasets />} />
           <Route path="/privacypolicy" element={<Privacypolicy />} />
           <Route path="/licensing" element={<Licensing />} />
+          <Route path="/searchresults" component={SearchResults} />
         </Routes>
       </BrowserRouter>
     </main>

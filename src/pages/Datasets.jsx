@@ -44,4 +44,12 @@ const Datasets = () => {
   );
 };
 
+export const datasetsSearchableContents = [
+  "People",
+  "Property",
+  "Sensors",
+  "Transportation",
+  "Environments",
+];
+
 export default Datasets;
