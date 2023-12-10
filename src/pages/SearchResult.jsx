@@ -24,7 +24,7 @@ const searchContent = (searchText) => {
     return [
         ...convertToPageContents({
             title: "datasets",
-            link: "/datasets/",
+            link: "/datasets",
             pageContents: datasetsSearchableContents,
         }),
     ].filter(({ title, content }) => {
