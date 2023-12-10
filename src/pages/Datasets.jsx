@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import './Datasets.css';
+import '../styles/Datasets.css';
 
 const Datasets = () => {
   return (

@@ -5,7 +5,7 @@ import '../styles/contact.css';
 
 const Contact = () => {
   return (
-      <body>
+      <body className="contactBody">
           
 
     <div className="row">
