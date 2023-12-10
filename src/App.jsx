@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
-import Contact from "./pages/Contact";
+// import Contact from "./pages/Contact";
 import About from "./pages/About";
 import "./App.css";
 import Casestudies from "./pages/Casestudies";
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/contact" element={<Contact />} /> */}
           <Route path="/casestudies" element={<Casestudies />} />
           <Route path="/datasets" element={<Datasets />} />
           <Route path="/privacypolicy" element={<Privacypolicy />} />
