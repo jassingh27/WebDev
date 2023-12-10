@@ -1,11 +1,11 @@
-form {
+form.search-form {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 45%;
 }
 
-input[type="text"] {
+input[type="text"].search-input{
     padding: 0.4rem;
     border-radius: 0.25rem;
     border: none;
@@ -16,7 +16,7 @@ input[type="text"] {
     margin-right: 0.4rem;
 }
 
-button[type="submit"] {
+button[type="submit"].search-button {
     padding: 0.3rem;
     background-color: #33B98E;
     color: #fff;

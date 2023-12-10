@@ -9,21 +9,25 @@ const SearchBar = () => {
     setSearchQuery(event.target.value);
   };
 
-  const handleSearchSubmit = (event) => {
-    event.preventDefault();
-    console.log(`Searching for: ${searchQuery}`);
+  const handleSearch = (e) => {
+    e.preventDefault()
+    // Redirect to the search results page with the current search value
+    window.location.href = `/searchresults?q=${encodeURIComponent(
+      searchQuery,
+    )}`;
   };
 
   return (
-    <form onSubmit={handleSearchSubmit}>
+    <form className="search-form" onSubmit={handleSearch}>
       <input
         type="text"
+        className="search-input"
         placeholder="Search here..."
         value={searchQuery}
         onChange={handleSearchInputChange}
       />
-      <button type="submit">
-        <img src={searchIcon} alt="Search Icon" />
+      <button className="search-button" type="submit">
+        <img src={searchIcon} alt="Search Icon" onClick={handleSearch} />
       </button>
     </form>
   );
