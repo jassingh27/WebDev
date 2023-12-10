@@ -10,7 +10,7 @@ const Contact = () => {
 
     <div className="row">
       <div className="column">
-        <img className="cityImage responsive" src="cityimg.png" alt="" />
+        <img className="cityImage responsive" src="src/assets/cityImage.png" alt="" />
       </div>
       <div className="column">
         <form id="contact" action="" method="post">
